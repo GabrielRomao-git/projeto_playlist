@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.buraco{
+    position: sticky;
+    top: 0;
+    height: 9px;
+    background-color: rgba(82, 69, 60, 1);
+    z-index: 10;
+}
+body{
+    overflow: scroll;
+}
+
+.container-conteudomusicas{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 77vw;
+    height: 197vh;
+    gap: 0 0;
+}
+
+.imagem-fundo{
+    width: 77vw;
+    height: 400px;
+}
+
+.imagem-fundo img{
+    width: 77vw;
+    height: 400px;
+}
+
+.cartao-musicas1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-left: 75px;
+    width: 77vw;
+    height: 41vh;
+    gap: 5% 5%;
+}
+
+.container-conteudomusicas .cartao-musicas1 .foto-da-musica , .foto-da-musica img{
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+    width: 20vw;
+    height: 35vh;
+    -webkit-box-shadow: 5px -5px 15px 0px rgba(0,0,0,0.59), -2px 5px 15px 0px rgba(0,0,0,0.43); 
+    box-shadow: 5px -5px 15px 0px rgba(0,0,0,0.59), -2px 5px 15px 0px rgba(0,0,0,0.43);
+}
+
+.titulos-musicas1{
+    display: flex;
+    flex-direction: column;
+    width: 77vw;
+    height: 300px;
+}
+
+.titulos-musicas1 a{
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color:rgba(152, 191, 113, 1);
+    margin-bottom: 70px;
+}
+
+.titulos-musicas1 audio{ 
+    border-radius: 15px;
+    content: 60px;
+    width: 450px;
+    height: 50px;
+    background-color: rgba(152, 191, 113, 1);
+}
+
+.container-conteudomusicas .letras{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 80vh;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.letras .parte1{
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 35vw;
+    height: 80vh;
+    font-size: 20px;
+}
+
+.letras .parte1 p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.letras .parte2{
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 35vw;
+    height: 80vh;
+    font-size: 20px; 
+}
+
+.letras .parte2 p{
+    font-size: 20px;
+    text-align: center;
+}
+
+
